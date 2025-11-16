@@ -1,17 +1,11 @@
 import Banner from "./components/Banner";
-import Link from "./components/Link";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <Banner src="/Banner.png" alt="Banner Image" />;
-      <Link
-        href="https://www.itau.com.br/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Acesse o Itaú
-      </Link>
+      <Header />
+      <Banner src="./Banner.png" alt="Banner" />;
     </>
   );
 }
